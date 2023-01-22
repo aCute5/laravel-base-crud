@@ -7,9 +7,8 @@
     <title>Comics Database</title>
 </head>
 <body>
-    <h1>Lista dei fumetti</h1>
     <main>
-        @yield('content')
+       @yield('content')
     </main>
 </body>
 </html>

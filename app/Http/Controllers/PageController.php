@@ -47,7 +47,8 @@ class PageController extends Controller
      */
     public function show(Comic $comic)
     {
-        dd($comic);
+        return view('guests.comics.show', compact('comics'));
+
     }
 
     /**
